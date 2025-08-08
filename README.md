@@ -34,6 +34,35 @@ git clone https://github.com/your-username/gtfobins-explorer.git
 cd gtfobins-explorer
 python3 -m pip install -r requirements.txt
 python3 commandEXP.py -h
-
+```
 ##Usage
+
+Run the script followed by the command you want to fetch exploits for:
+```
+python3 commandEXP.py <command>
+```
+
+## Examples
+
+- Fetch exploits for the cp command:
+```python3 commandEXP.py cp```
+
+##Output Example
+
+
+```[+] Exploits for 'cp':
+
+  → Type: file-write
+    Description: It can be used to write arbitrary files.
+    Examples:
+      [1] Inline code: echo "DATA" | cp /dev/stdin "$LFILE"
+      [2] Inline code: echo "DATA" | sudo cp /dev/stdin "$LFILE"
+
+  → Type: suid
+    Description: If the SUID bit is set...
+    Examples:
+      [1] Code block:
+sudo install -m =xs $(which cp) .
+./cp ...
+```
 
