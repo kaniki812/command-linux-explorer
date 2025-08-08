@@ -31,7 +31,7 @@ displaying them in a clean, colorized terminal output.
 
 ```bash
 git clone https://github.com/kaniki812/command-linux-explorer.git
-cd gtfobins-explorer
+cd command-linux-explorer
 python3 -m pip install -r requirements.txt
 python3 commandEXP.py -h
 ```
