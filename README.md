@@ -30,7 +30,7 @@ displaying them in a clean, colorized terminal output.
 1. **Clone or download this repository:**
 
 ```bash
-git clone https://github.com/your-username/gtfobins-explorer.git
+git clone https://github.com/kaniki812/command-linux-explorer.git
 cd gtfobins-explorer
 python3 -m pip install -r requirements.txt
 python3 commandEXP.py -h
